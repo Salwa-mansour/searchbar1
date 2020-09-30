@@ -9,14 +9,25 @@
 <body>
     <div class="content-wrapper">
         <div class="navmenu">
-            <form action="/search"  id="search-from" method="get">
+            <form action="/search"  id="search-form" method="get">
                 <input type="text" placeholder="search" name="q">
-                <input type="submit" value="search">
+                <input id="button-submit" type="submit" value="search">
             </form>
             <span id="menu"><img src="../humburger.png" width="50px" alt=""></span>
             <nav id="navbar">
                 <ul class="navbar">
-                    
+                    <li><a href="#"><span>Home</span></a></li>
+                    <li><a href="#"><span>News</span></a></li>
+                    <li><a href="#"><span>Blog</span></a></li>
+                    <li id="submenu">
+                        <span>Courses</span>
+                       <ul class="sub-menu">
+                           <li><a href="#"><span>html</span></a></li>
+                           <li><a href="#"><span>css</span></a></li>
+                           <li><a href="#"><span>javascript</span></a></li>
+                       </ul>
+                    </li>
+                    <li><a href="#"><span>contact us</span></a></li>
                 </ul>
             </nav>
         </div>
